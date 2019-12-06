@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular Pratice 1';
+  email = '123@example.com'
   
   courses = [
     { id: 1, name: 'course1'},
@@ -26,4 +27,9 @@ export class AppComponent  {
   }
 
   viewMode = 'map';
+
+  confirm() {
+    console.log(this.email);
+  }
+  
 }

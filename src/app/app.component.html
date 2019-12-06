@@ -6,7 +6,7 @@
 
 <ng-template #coursesList>
   List of courses
-</ng-template>
+</ng-template> 
 
 <ng-template #noCourses>
   No courses yet
@@ -62,3 +62,12 @@
     {{ course.name }} <span *ngIf="isEven">(Even)</span>
   </li>
 </ul>
+
+<!--ngModel-->
+<div>
+  Enter your email and click confirm : <br/>
+  <input [(ngModel)]="email" (keyup.enter)="confirm()"/>
+  <button (click)="confirm()">Confirm!</button>
+</div>
+
+<!--ngModel-->
