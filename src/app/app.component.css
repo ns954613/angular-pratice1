@@ -1,3 +1,12 @@
 p {
-  font-family: Lato;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  padding: 20px;
+}
+.form-control.ng-touched.ng-invalid {
+  border: 2px solid red;
+}
+.alert {
+  color: red;
 }

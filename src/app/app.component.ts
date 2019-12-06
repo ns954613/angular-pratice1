@@ -23,7 +23,7 @@ export class AppComponent  {
     this.courses.splice(index, 1);
   }
   onChange(course) {
-    course.name = 'Updata course!';
+    course.name = 'Update course!';
   }
 
   viewMode = 'map';
@@ -31,5 +31,9 @@ export class AppComponent  {
   confirm() {
     console.log(this.email);
   }
-  
+
+  log(x) {
+    console.log(x);
+  }
+
 }
